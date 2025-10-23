@@ -1,0 +1,39 @@
+/* ------------------------- */
+/* Estilos Gerais e Globais  */
+/* ------------------------- */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8f9fa;
+  padding-top: 56px;
+  /* Para acomodar a barra de navegação fixa */
+}
+
+.section-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+}
+
+.header-title {
+  color: #0d6efd;
+  /* Azul do Bootstrap Primary */
+  border-bottom: 3px solid #0d6efd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ------------------------------------ */
+/* Ajustes de Responsividade            */
+/* ------------------------------------ */
+@media (max-width: 768px) {
+  .section-card {
+    padding: 1rem;
+  }
+}

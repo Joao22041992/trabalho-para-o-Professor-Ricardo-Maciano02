@@ -1,0 +1,50 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  font-family: "Inter", sans-serif;
+}
+html {
+  height: 100%; /* Garante que o HTML ocupe a altura total para o body flexbox */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  font-family: "Inter", sans-serif;
+  height: 100%; /* Garante que o body ocupe a altura total do HTML */
+  margin: 0; /* Remove margens padrão do body */
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  color: #0d6efd;
+  border-bottom: 3px solid #0d6efd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  .contact-card {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
